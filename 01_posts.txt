@@ -1,0 +1,2 @@
+old_title,old_slug,new_path,priority
+item,item,/blog/item/,P0
