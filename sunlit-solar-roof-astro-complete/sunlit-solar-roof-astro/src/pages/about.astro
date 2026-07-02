@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const provides = [
+  { title: "Complete Solar Roof Systems", desc: "We focus on coordinated roof packages that include active PV tiles or solar sheets, matching inactive roof elements, flashing, fixings and accessories." },
+  { title: "Two Product Families", desc: "Lumina Slate is a premium slate-look glass system. Storm Guard is a modern metal system with a lower cost position and wider project range." },
+  { title: "Project Quotation Support", desc: "We help overseas buyers review roof drawings, clarify product scope and prepare a project-based quotation direction." },
+  { title: "Export-Oriented Communication", desc: "We support B2B buyers with product information, packaging discussion, shipping coordination and documents based on project stage." }
+];
+
+const steps = [
+  { title: "Project Inquiry", desc: "You send project country, roof area, roof drawing if available, preferred system and delivery destination." },
+  { title: "System Discussion", desc: "We discuss whether Lumina Slate or Storm Guard is more suitable based on appearance, budget and roof type." },
+  { title: "Scope and Quotation", desc: "We prepare the product scope around active elements, inactive coverage, accessories and packaging requirements." },
+  { title: "Documents and Coordination", desc: "We provide relevant datasheets, installation notes and other documents according to the project stage." }
+];
+---
+
+<Layout title="About Sunlit Solar Roof">
+  <section class="bg-[#f8faf8] py-14 md:py-20">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <p class="sunlit-overline mb-4">About Sunlit</p>
+      <h1 class="sunlit-section-title text-4xl md:text-6xl mb-6">A B2B Supplier of Complete Solar Roof Systems</h1>
+      <p class="text-lg md:text-xl text-[var(--slate)] leading-relaxed">
+        Sunlit Solar Roof focuses on integrated solar roofing systems for overseas buyers. Our role is to help distributors, installers, contractors and developers understand product scope, compare system options and move real projects toward quotation.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid lg:grid-cols-3 gap-10 items-start">
+        <div>
+          <p class="sunlit-overline mb-3">Who We Are</p>
+          <h2 class="sunlit-section-title text-3xl md:text-4xl mb-4">Not a Tile Seller. A Solar Roof System Supplier.</h2>
+          <p class="text-[var(--slate)] leading-relaxed">
+            Many buyers search for solar roof tiles, solar shingles or BIPV roof products. In practice, a serious project needs more than active PV pieces. It needs a complete package that also covers non-generating roof areas, edge details, flashing, fixings and accessories.
+          </p>
+        </div>
+        <div class="lg:col-span-2 grid md:grid-cols-2 gap-5">
+          {provides.map((item) => (
+            <div class="sunlit-card p-6">
+              <h3 class="font-extrabold text-[var(--charcoal)] mb-3">{item.title}</h3>
+              <p class="text-[var(--slate)] leading-relaxed text-sm">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-24 bg-[#f8faf8]">
+    <div class="container mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <p class="sunlit-overline mb-3">How We Work</p>
+        <h2 class="sunlit-section-title text-3xl md:text-5xl mb-4">A Practical Process for Overseas Projects</h2>
+        <p class="text-[var(--slate)]">The goal is to reduce confusion before quotation and make the product scope clear enough for B2B decision makers.</p>
+      </div>
+      <div class="grid md:grid-cols-4 gap-5">
+        {steps.map((step, index) => (
+          <div class="sunlit-card p-6">
+            <div class="text-xs font-extrabold text-[var(--deep-green)] mb-3">0{index + 1}</div>
+            <h3 class="font-extrabold text-[var(--charcoal)] mb-3">{step.title}</h3>
+            <p class="text-sm text-[var(--slate)] leading-relaxed">{step.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <p class="sunlit-overline mb-3 text-center">Our Position</p>
+      <h2 class="sunlit-section-title text-3xl md:text-5xl mb-8 text-center">Clear Claims, Practical Support</h2>
+      <div class="sunlit-card p-8 space-y-5 text-[var(--slate)] leading-relaxed">
+        <p>We do not position Sunlit as a generic solar panel supplier. Our focus is the roof itself: active PV roof elements, matching inactive elements and the accessories needed to form a complete roof package.</p>
+        <p>We also avoid making project claims before the roof drawing and project conditions are understood. Wind, fire, warranty, electrical configuration and certification requirements may vary by product, market and project scope.</p>
+        <p>For buyers, this makes the discussion more honest and more useful. You can start with drawings and requirements, then receive a product scope and quotation direction that fits the actual roof.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20 dark-green-gradient text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-5">Discuss a Solar Roof Project</h2>
+      <p class="text-lg text-white/75 max-w-2xl mx-auto mb-8">Send your project country, roof area, preferred system and roof drawing if available.</p>
+      <a href="/contact/" class="sunlit-btn-primary">Contact Sunlit</a>
+    </div>
+  </section>
+</Layout>

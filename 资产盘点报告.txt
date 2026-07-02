@@ -1,0 +1,96 @@
+﻿# ============================================
+# 网站资产盘点报告 - sunlitsolarroof.com
+# 生成时间: 2026-07-02 11:22:13
+# XML 文件: sunlitsolarroof.WordPress.2026-07-01.xml
+# ============================================
+
+## 一、XML 导出概览
+- 文件大小: 4.68 MB
+- 总条目数: 694 条
+
+## 二、内容类型分布
+| 类型 | 数量 | 说明 |
+|------|------|------|
+| attachment | 574 | 媒体文件(图片/视频/PDF) |
+| page | 31 | 页面 |
+| project | 27 | 项目案例(自定义类型) |
+| elementor_library | 26 | Elementor 模板 |
+| post | 14 | 博客文章 |
+| nav_menu_item | 9 | 导航菜单项 |
+| elementor_snippet | 2 | Elementor 代码片段 |
+| wp_navigation | 1 | 导航配置 |
+
+## 三、状态统计
+- publish: 110 (已发布)
+- inherit: 574 (附件继承状态)
+- draft: 10 (草稿)
+
+## 四、文章列表 (14篇)
+1. Grid-Tied, Off-Grid, or Hybrid? How to Choose the Right Solar Setup
+2. Solar Roofs
+3. A Real Case Study: Building a Solar Roof Across the Ocean
+4. The Story Behind Lumina Slate: Building a Better Solar Roof
+5. Invisible Solar Roof for Premium Developments
+6. The Offshore BIPV Trap: An Importer’s Survival Guide to Solar Roofs
+7. How to Import a Solar Roof Without Losing Your Mind (Or Your Margins)
+8. Beijing Poly Longshang Luxury Villa: BIPV Integration on Complex Roof Geometry
+9. Navigation
+## 五、页面列表 (31页)
+1. Thank You
+2. knowledges
+3. Storm Guard Series
+4. Storm Guard Series Electrical System
+5. Contact Us
+6. Lumina Slate Series, Main Roofing Tiles Installation
+7. Home-bak
+8. Premium Glass Slate | Natural Slate Alternative
+9. Trial of manus moudles
+10. How to Install a Solar Roof: A No-Nonsense Guide for Builders
+11. Storm Guard Series - Roofing tiles
+12. Lumina Slate Series Electrical System
+13. Why Developers Are Doing the Math Wrong on Solar Roofs
+14. Onzichtbaar zonnedak voor hoogwaardige projecten
+15. Techo Solar Invisible para Promociones Premium
+16. Tetto solare invisibile per gli edifici di pregio
+17. Beijing New World Lizun: Compact Efficiency & Uncompromising Waterproofing
+## 六、项目列表 (27个)
+1. Hangzhou Xianghu Arcadia Villa: Seamless Solar Integration in Scenic Nature
+2. Xuzhou Luxury Villa: The Ultimate BIPV vs. BAPV Contrast
+3. Beijing Tanxiangshan Villa: High-Capacity BIPV Roofing Solutions
+4. Hangzhou Jiuxi Rose Garden: Powering Ultra-Luxury European Estates
+5. Hangzhou Yunxi Diegu Villa: Aesthetic Solar Upgrades for Premium Communities
+6. Nanjing Shanshui Huamen Villa: Custom Solar Integration on Complex Rooflines
+7. Shanghai Hongqiao Royal Villa: High-Density Solar Power for Premium Estates
+8. Yiwu Golf Villa: Maximum Power Density on a Compact Roof
+9. Large-Scale Commercial Complex: Extreme Weather BIPV Integration
+10. Urban Compact Home Retrofit: Typhoon-Ready Solar Integration
+11. Heritage Aesthetic Meets Green Energy: Custom Red BIPV Solutions
+12. Pioneer Residential Retrofit: The Evolution of BIPV Integration
+13. US Coastal Community: Neighborhood-Scale BIPV Deployment
+## 七、媒体文件统计
+- 导出附件URL数: 449 个
+- 站点域名: https://www.sunlitsolarroof.com
+
+### 文件格式分布
+| 格式 | 数量 |
+|------|------|
+| .webp | 2178 |
+| .png | 783 |
+| .jpg | 388 |
+| .svg | 186 |
+| .pdf | 4 |
+| .jpeg | 3 |
+| .mp4 | 2 |
+
+### 按月份分布
+- 2025/10: 510 个文件
+- 2025/11: 198 个文件
+- 2025/12: 432 个文件
+- 2026/01: 63 个文件
+- 2026/03: 24 个文件
+- 2026/04: 320 个文件
+- 2026/05: 309 个文件
+- 2026/06: 11 个文件
+
+---
+**总计约 3,500+ 个图片/媒体文件引用，449 个唯一附件 URL**
